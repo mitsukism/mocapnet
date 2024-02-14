@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Webpack Example",
+    "version": "0.0.1",
+    "description": "A minimal example of how to use npm modules from within a WebExtension.",
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_title": "roca search demo"
+    },
+    "background": {
+        "service_worker": "/background_scripts/index.js"
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+      ]
+}

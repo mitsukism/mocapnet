@@ -1,0 +1,20 @@
+{
+    "url1": {
+        "url": "http://www.google.com",
+        "title": "Google",
+        "description": "Search engine",
+        "image": "http://www.google.com/images/srpr/logo3w.png"
+    },
+    "url2": {
+        "url": "http://www.yahoo.com",
+        "title": "Yahoo",
+        "description": "Search engine",
+        "image": "http://l.yimg.com/a/i/ww/met/yahoo_logo_us_061509.png"
+    },
+    "url3": {
+        "url": "http://www.bing.com",
+        "title": "Bing",
+        "description": "Search engine",
+        "image": "http://www.bing.com/s/a/bing_p.ico"
+    }
+}

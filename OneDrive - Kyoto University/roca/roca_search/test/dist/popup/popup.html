@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <!--p id="title" style="min-width: 520px;"></p-->
+    <section class="section">
+      <div class="container">
+        <div id="link-preview-1" class="box" style="width:300px">
+          <img id="myimage1" src="">
+          <div class="is-clipped">
+            <div id="mytitle1" class="has-text-weight-bold"></div>
+            <div id="mydescription1" class="mt-2"></div>
+            <div id="myurl1" class="mt-2 is-size-7"></div>
+          </div>
+        </div>
+        <div id="link-preview-2" class="box" style="width:300px">
+          <img id="myimage2" src="">
+          <div class="is-clipped">
+            <div id="mytitle2" class="has-text-weight-bold"></div>
+            <div id="mydescription2" class="mt-2"></div>
+            <div id="myurl2" class="mt-2 is-size-7"></div>
+          </div>
+        </div>
+        <div id="link-preview-3" class="box" style="width:300px">
+          <img id="myimage3" src="">
+          <div class="is-clipped">
+            <div id="mytitle3" class="has-text-weight-bold"></div>
+            <div id="mydescription3" class="mt-2"></div>
+            <div id="myurl3" class="mt-2 is-size-7"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      $(document).ready(function() {
+          // 例: リンクプレビュー1のデータを代入
+          $('#myimage1').attr('src', 'https://www.toyota-tsusho.com/app-files/img/symbol/ogp_logo01.png');
+          $('#mytitle1').text('豊田通商がSBエナジー株式85％の取得完了');
+          $('#mydescription1').text('豊田通商のプレスルーム「豊田通商がSBエナジー');
+          $('#myurl1').text('https://www.toyota-tsusho.com/press/detail/230428_006232.html');
+
+          // 必要に応じて他のリンクプレビューのデータも同様に代入
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "sampleext",
+  "version": "0.0.1",
+  "description": "Sample Firefox extension using npm packages",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "jquery": "^3.7.1",
+    "link-preview-js": "^3.0.5",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
